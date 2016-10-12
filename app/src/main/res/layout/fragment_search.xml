@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+
+
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/search_button"
+        android:layout_alignLeft="@+id/search_button"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/search_button"
+        android:layout_alignStart="@+id/search_button"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif-light"
+        android:hint="@string/insert_a_name"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textColor="@color/btn_add_color"
+        android:textColorLink="@android:color/white"
+        android:textSize="18sp"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/btn_add_bg"
+        android:fontFamily="sans-serif-light"
+        android:paddingBottom="8dp"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp"
+        android:paddingTop="8dp"
+        android:text="@string/search_name"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+</RelativeLayout>

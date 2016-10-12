@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GitSearch</string>
+    <string name="search_name">Search Users</string>
+    <string name="list_of_users">List of users</string>
+    <string name="insert_a_name">Insert a name</string>
+    <string name="no_users_to_display">No users to display</string>
+</resources>

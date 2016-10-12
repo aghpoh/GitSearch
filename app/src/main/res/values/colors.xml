@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="bgColor">#6E2E3E</color>
+    <color name="btnColor">#B98D51</color>
+    <color name="bdRowDrop">#33c25955</color>
+    <color name="bdRowDropPressed">#4DB98D51</color>
+</resources>

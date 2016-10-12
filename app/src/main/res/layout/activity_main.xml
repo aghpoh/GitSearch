@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor"
+    tools:context="com.petru.gitsearch.activities.MainActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.petru.gitsearch.fragments.SearchFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        tools:layout="@layout/fragment_search" />
+
+
+    <fragment
+        android:id="@+id/showFragment"
+        android:name="com.petru.gitsearch.fragments.ShowContentFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/searchFragment"
+        android:layout_marginTop="20dp"
+        tools:layout="@layout/fragment_show" />
+</RelativeLayout>
